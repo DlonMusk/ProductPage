@@ -1,6 +1,6 @@
 body{
     margin: 0;
-
+    font-family: 'Libre Baskerville', serif;
 }
 #background-video{
     position: fixed;
@@ -87,19 +87,46 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Stalinist One', cursive;
 }
 .car-images{
-    max-width: 100%;
-    height: auto;
-    margin-top: 5rem;
-    text-align: center;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.car{
+    max-width: 100%;
+    height: auto;
+}
 
+#model-3{
+    margin-top: 2rem;
+}
+
+#model-x{
+
+}
+
+#model-y{
+    margin-top: 2rem;
+}
 
 #model-s{
     margin-right: 5rem;
 }
+
+
 #form{
-    margin-top: 5em;
+    height: 60vh;
+    display: grid;
+    grid-template-rows: 30px 20px;
+    row-gap: 10px;
+
+}
+
+input[type="submit"]{
+    border-radius: 50px;
 }

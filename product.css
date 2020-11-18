@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+
+}
+#background-video{
+    position: fixed;
+    right: 0;
+    top: 0;
+    min-width: 100vw;
+    height: 100vh;
+    display: flex;
+    object-fit: fill;
+    margin: 0;
+    z-index: -1;
+}
+
+#header{
+    position: fixed;
+    top: 0;
+    display: flex;
+    min-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.205);
+    z-index: 1;
+
+    min-height: 20vh;
+}
+
+#header-img{
+    max-width: 50%;
+    max-height: 20vh;
+    margin: 0 0 0 5vw;
+    
+}
+
+
+ul{
+    width: 60vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 20vw;
+    list-style-type: none;
+    padding: 0;
+
+}
+
+.nav-link{
+    font-size: large;
+}
+
+.nav-link:hover{
+    transform: scale(1.3);
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+#content{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-top: 20vh;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+
+#tesla-video{
+    margin: 5rem 0 5rem 0;
+}
+
+#tesla-models{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#tesla-lineup-title{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.car-images{
+    max-width: 100%;
+    height: auto;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+
+
+#model-s{
+    margin-right: 5rem;
+}
+#form{
+    margin-top: 5em;
+}
